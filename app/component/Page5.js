@@ -116,7 +116,7 @@ const Page5 = () => {
                     </svg>
                     
                     <div className=''>
-                        <p className='thefunctional p-9'>The foundational features of Sketch have been indispensable. I also like using it while flying and traveling, and the fact it's a native app makes designing more enjoyable overall.</p>
+                        <p className='thefunctional p-9'>The foundational features of Sketch have been indispensable. I also like using it while flying and traveling, and the fact it&apos;s a native app makes designing more enjoyable overall.</p>
                         
                         </div>
 
@@ -165,7 +165,7 @@ const Page5 = () => {
                     </svg>
                     
                     <div className=''>
-                        <p className='thefunctional p-9'>The foundational features of Sketch have been indispensable. I also like using it while flying and traveling, and the fact it's a native app makes designing more enjoyable overall.</p>
+                        <p className='thefunctional p-9'>The foundational features of Sketch have been indispensable. I also like using it while flying and traveling, and the fact it&apos;s a native app makes designing more enjoyable overall.</p>
                         
                         </div>
 
@@ -213,7 +213,7 @@ const Page5 = () => {
                     </svg>
                     
                     <div className=''>
-                        <p className='thefunctional p-9'>The foundational features of Sketch have been indispensable. I also like using it while flying and traveling, and the fact it's a native app makes designing more enjoyable overall.</p>
+                        <p className='thefunctional p-9'>The foundational features of Sketch have been indispensable. I also like using it while flying and traveling, and the fact it&apos;s a native app makes designing more enjoyable overall.</p>
                         
                         </div>
 

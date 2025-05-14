@@ -18,7 +18,7 @@ const Navbar = () => {
       />
       
     </div >
-      <nav className='flex items-center space-x-6 px-6 py-6  '>
+      <nav className='flex items-center space-x-6 px-[13px] sm:px-[14px] md:px-[15px] lg:px-[16px] xl:px-[20px] 2xl:px-[24px] py-6  '>
        
             <a href="Home" className='cursor-pointer flex items-center gap-[6px]'>Home</a>
             <a href="challenge" className='cursor-pointer flex items-center gap-[6px]'>Challenge</a>
