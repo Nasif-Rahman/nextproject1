@@ -299,6 +299,7 @@ const Page6 = () => {
                             </defs>
                             </svg>
 
+<<<<<<< HEAD
 
                         <span className='getfundednow mb-[16px] md:mb-[25px] xl:mb-[32px] text-center'>Get funded now</span>
                         <h2 className='nowbecome text-[35px] md:text-[40px] lg:text-[44px] xl:text-[55px] 2xl:text-[64px]'>Get funded now become<br className='lg:block hidden'/> a cti trader today!</h2>
@@ -308,6 +309,17 @@ const Page6 = () => {
                 </div>
             </div>
         </div>
+=======
+      <div className='bgpage6 m-30 flex items-center justify-center flex-col'>
+       <h1 className='getfundednow mb-[16px]  mt-20 '>Get funded now</h1>
+        <h2 className='nowbecome text-[35px] '>Get funded now become<br className='lg:block hidden'/> a cti trader today!</h2>
+        <button className='buttondesgn mt-[20px]'>Start CTI Challenge
+        </button>
+
+      </div>
+      
+    </div>
+>>>>>>> 19d3c6e1d5ef67ac6ea3123c8c747d201a555915
   )
 }
 
