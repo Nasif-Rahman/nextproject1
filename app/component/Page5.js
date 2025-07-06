@@ -77,7 +77,7 @@ const Page5 = () => {
                   }}
                 className="mySwiper ">
                   <SwiperSlide>
-                    <div className='flex-1 relative py-[20px] p-8 m-8 mt-16 '>
+                    <div className='flex-1 relative py-[20px] p-8 m-8 mt-16  '>
                          <svg xmlns="http://www.w3.org/2000/svg" className='w-[3px] h-full absolute top-0 left-8 2xl:left-12 md:block hidden' viewBox="0 0 2 284" fill="none">
                     <path d="M1 1L1.00001 283" stroke="url(#paint0_radial_564_657)" stroke-linecap="square"/>
                     <defs>

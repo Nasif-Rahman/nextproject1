@@ -28,12 +28,50 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-
+@layer base {
+  .Link-manu-bar{ 
+    @apply hover:text-[#ABE004] text-[12px] sm:text-[15px] xl:text-[18px] 2xl:text-[20px] duration-300 cursor-pointer
+  }
+  .contactusbtn{
+    @apply px-[16px] sm:px-[18px] md:px-[20px] lg:px-[24px] xl:px-[28px] 2xl:px-[32px] py-[11px] sm:py-[12px] md:py-[13px] lg:py-[14px] xl:py-[15px] 2xl:py-[16px]  
+  }
+  .contactusbtn{
+    @apply hover:bg-[#fff] border-[#ffffff1f] duration-300 hover:text-[#ABE004] text-[11px] sm:text-[12px] xl:text-[13px] 2xl:text-[14px]
+  }
+  .Construction{
+    @apply text-[15px] sm:text-[16px] md:text-[18px] lg:text-[20px] xl:text-[22px] 2xl:text-[24px] mb-[18px] sm:mb-[20px] md:mb-[25px] lg:mb-[30px] xl:mb-[35px] 2xl:mb-[40px]
+  }
+  .Printing{
+    @apply text-[33px] sm:text-[44px] md:text-[55px] lg:text-[66px] xl:text-[77px] 2xl:text-[84px]
+  }
+  .buttondesgn{
+    @apply  mt-[30px] md:mt-[50px] xl:mt-[84px]
+  }
+  .catagroyimage{
+    @apply text-[30px] sm:text-[35px] md:text-[40px] lg:text-[45px] xl:text-[50px] 2xl:text-[54px]
+  }
+  .revoluction{
+    @apply text-[15px] sm:text-[16px] md:text-[18px] lg:text-[20px] xl:text-[22px] 2xl:text-[24px]
+  }
+  .aboutus{
+    @apply text-[15px] sm:text-[16px] md:text-[18px] lg:text-[20px] xl:text-[22px] 2xl:text-[24px]
+  }
+  .contaienraas3d{
+    @apply text-[15px] sm:text-[16px] md:text-[18px] lg:text-[20px] xl:text-[22px] 2xl:text-[24px]
+  }
+  .lineritems{
+    @apply pl-[33px] sm:pl-[44px] md:pl-[55px] lg:pl-[66px] xl:pl-[77px] 2xl:pl-[84px] pr-[44px] sm:pr-[55px] md:pr-[66px] lg:pr-[77px] xl:pr-[88px] 2xl:pr-[94px] pt-[30px] sm:pt-[35px] md:pt-[40px] lg:pt-[44px] xl:pt-[55px] 2xl:pt-[62px]
+  }
+  .salarycard{
+    @apply py-[18px] sm:py-[20px] md:py-[25px] lg:py-[30px] xl:py-[35px] 2xl:py-[40px] px-[14px] sm:px-[16px] md:px-[18px] lg:px-[20px] xl:px-[22px] 2xl:px-[24px]
+  }
+}
 
 
 
 
 @layer utilities {
+
 .brand{
   color: #FFF;
 leading-trim: both;
@@ -237,8 +275,7 @@ color:#15ef44
 
 .bgpage3{
 
-  width: auto;
-height: auto;
+;
 flex-shrink: 0;
 border-radius: 32px;
 border: 1px solid rgba(255, 255, 255, 0.08);
@@ -296,16 +333,16 @@ line-height: normal;
 
 }
 
-.bordershdw{
- width: 586px;
+/* .bordershdw{
+ width: auto;
 height: 1px;
 background: linear-gradient(270deg, rgba(255, 255, 255, 0.00) 21.79%, rgba(255, 255, 255, 0.24) 50.27%, rgba(255, 255, 255, 0.00) 77.62%);
-}
+} */
 
 .salarycard{
 display: flex;
-width: 450px;
-height:150 ;
+  width: 100%;
+  max-width: 100%;
 padding: 40px 24px;
 justify-content: center;
 align-items: center;
@@ -481,7 +518,7 @@ line-height: 150%; /* 39.2px */
 
 .bgpage6{
 width: auto;
-height: 431px;
+height: auto;
 border-radius: 32px;
 border: 1px solid rgba(255, 255, 255, 0.08);
 background: linear-gradient(101deg, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0.08) 53.5%, rgba(255, 255, 255, 0.04) 100%);
@@ -517,5 +554,116 @@ background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
+
+ 
+@keyframes zoom {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.5); }
+}
+
+.animate-zoom {
+  animation: zoom 4s ease-in-out infinite;
+}
+
+  @keyframes float {
+    0% {
+      transform: scale(1) translateX(0);
+      opacity: 0.8;
+    }
+    50% {
+      transform: scale(1.2) translateX(-2px);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1) translateX(2px);
+      opacity: 0.6;
+    }
+  }
+
+.buttonpage6{
+   color: #08090B;
+    
+    font-size: clamp(12px, 2vw, 20px);
+    font-style: normal;
+    font-weight: 200;
+    line-height: 100%;
+    border-radius: 80px;
+    background: #C0FC04;
+    backdrop-filter: blur(12px);
+    display: flex;
+    margin: 35px;
+    padding: 16px 32px;
+    
+   
+    gap: 8px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    transition: 0.2s;
+
+}
+ .buttonpage6:hover{
+  border-radius: 104px;
+border: 1px solid rgba(255, 255, 255, 0.08);
+background: linear-gradient(90deg, rgba(15, 16, 18, 0.10) 0%, rgba(15, 16, 18, 0.70) 53.5%, rgba(15, 16, 18, 0.10) 100%);
+color:#15ef44
+  }
+
+
+ .backgrnd1{
+  margin-top: 24px;
+width: auto;
+height: 82px;
+flex-shrink: 0;
+border-radius: 104px;
+border: 1px solid rgba(255, 255, 255, 0.08);
+background: linear-gradient(90deg, rgba(15, 16, 18, 0.10) 0%, rgba(15, 16, 18, 0.70) 53.5%, rgba(15, 16, 18, 0.10) 100%);
+
+
+ }
+
+   .secoundtext{
+    color: #FFF;
+    leading-trim: both;
+    text-edge: cap;
+
+    font-size: clamp(12px, 2vw, 20px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    opacity: 80% !important;
+  }
+
+    .maintextt1{
+    color: #FFF;
+    leading-trim: both;
+    text-edge: cap;
+
+    font-size: clamp(15px, 2vw, 24px);
+    font-style: normal;
+    font-weight: 300;
+    line-height: 110%; /* 26.4px */
+  }
+
+    .privacypolicy{
+    color: #FFF;
+    leading-trim: both;
+    text-edge: cap;
+
+    font-size: clamp(8px, 2vw, 16px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; /* 17.6px */
+    opacity: 0.7;
+  }
+    .lastpadding{
+    color: #FFF;
+    leading-trim: both;
+    text-edge: cap;
+   
+    font-size: clamp(15px, 2vw, 24px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; /* 26.4px */
+  }
+
 
 }

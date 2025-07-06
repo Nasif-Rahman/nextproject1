@@ -16,10 +16,10 @@ const Page4 = () => {
             </div>
 
             <div className='justify-end items-center'>
-                <h2 className='textpage4h2 p-3 pt-6'>
+                <h2 className='htagtwo p-3 pt-6 !text-[40px] sm:!text-[30px] md:!text-[40px] lg:!text-[45px] xl:!text-[55px] 2xl:!text-[64px] !text-start'>
                     Secure funding with us <br /> all in one tools
                 </h2>
-                <h1 className='h1tagpage4 text-[#9C9D9F] text-[20px] font-normal p-3'>
+                <h1 className='h1tagpage4 text-[#9C9D9F] text-[20px] font-normal p-3 sm:mt-[10px] lg:mt-[32px]'>
                   Don’t let your trading skills go unrewarded. prove yourself and secure <br/> funding with our risk-free plans.
                 </h1>
 
