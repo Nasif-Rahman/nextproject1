@@ -1,12 +1,12 @@
-import React from 'react'
+import React from 'react';
 
 const Page6 = () => {
   return (
-       <div>
-            <div className='bg-[#000] bgpage6 overflow-hidden m-15 my-15 '>
-                <div className='feature container mx-auto pt-[40px] md:pt-[60px] lg:pt-[90px] xl:pt-[120px] 2xl:pt-[154px] pb-[35px] sm:pb-[44px] md:pb-[54px] lg:pb-[64px] xl:pb-[74px] 2xl:pb-[84px] '>
-                    <div className='getfounder py-[35px] sm:py-[44px] md:py-[54px] lg:py-[64px] xl:py-[74px] 2xl:py-[84px] relative flex-col flex justify-center items-center overflow-hidden'>
-                    <svg className='h-full absolute top-0 dots animate-zoom' viewBox="0 0 832 431" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <div>
+      <div className='bg-[#000] bgpage6 overflow-hidden m-15 my-15'>
+        <div className='feature container mx-auto pt-[40px] md:pt-[60px] lg:pt-[90px] xl:pt-[120px] 2xl:pt-[154px] pb-[35px] sm:pb-[44px] md:pb-[54px] lg:pb-[64px] xl:pb-[74px] 2xl:pb-[84px]'>
+          <div className='getfounder py-[35px] sm:py-[44px] md:py-[54px] lg:py-[64px] xl:py-[74px] 2xl:py-[84px] relative flex-col flex justify-center items-center overflow-hidden'>
+           <svg className='h-full absolute top-0 dots animate-zoom' viewBox="0 0 832 431" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path className='' d="M462.994 336.905C462.994 335.726 463.977 334.744 465.255 334.744C466.434 334.744 467.416 335.726 467.416 336.905C467.416 338.183 466.434 339.166 465.255 339.166C463.977 339.166 462.994 338.183 462.994 336.905Z" fill="white" fill-opacity="0.16"/>
                             <path className='animate-zoom' d="M260.468 412.374C260.468 411.194 261.451 410.212 262.63 410.212C263.907 410.212 264.89 411.194 264.89 412.374C264.89 413.651 263.907 414.634 262.63 414.634C261.451 414.634 260.468 413.651 260.468 412.374Z" fill="white" fill-opacity="0.16"/>
                             <path className='animate-zoom' d="M319.527 342.9C319.527 341.721 320.51 340.738 321.689 340.738C322.868 340.738 323.851 341.721 323.851 342.9C323.851 344.178 322.868 345.16 321.689 345.16C320.51 345.16 319.527 344.178 319.527 342.9Z" fill="white" fill-opacity="0.16"/>
@@ -297,30 +297,22 @@ const Page6 = () => {
                             <rect style={{ width: "20px", height: "20px" }} fill="white" transform="translate(0 73)"/>
                             </clipPath>
                             </defs>
-                            </svg>
-
-<<<<<<< HEAD
-
-                        <span className='getfundednow mb-[16px] md:mb-[25px] xl:mb-[32px] text-center'>Get funded now</span>
-                        <h2 className='nowbecome text-[35px] md:text-[40px] lg:text-[44px] xl:text-[55px] 2xl:text-[64px]'>Get funded now become<br className='lg:block hidden'/> a cti trader today!</h2>
-                        <button className='buttonpage6 mt-[20px] md:mt-[30px] xl:mt-[40px] text-center'>Start CTI Challenge
-                        </button>
-                    </div>
-                </div>
-            </div>
+                            </svg> 
+            <span className='getfundednow mb-[16px] md:mb-[25px] xl:mb-[32px] text-center'>
+              Get funded now
+            </span>
+            <h2 className='nowbecome text-[35px] md:text-[40px] lg:text-[44px] xl:text-[55px] 2xl:text-[64px] text-center'>
+              Get funded now become
+              <br className='lg:block hidden' /> a cti trader today!
+            </h2>
+            <button className='buttonpage6 mt-[20px] md:mt-[30px] xl:mt-[40px] text-center'>
+              Start CTI Challenge
+            </button>
+          </div>
         </div>
-=======
-      <div className='bgpage6 m-30 flex items-center justify-center flex-col'>
-       <h1 className='getfundednow mb-[16px]  mt-20 '>Get funded now</h1>
-        <h2 className='nowbecome text-[35px] '>Get funded now become<br className='lg:block hidden'/> a cti trader today!</h2>
-        <button className='buttondesgn mt-[20px]'>Start CTI Challenge
-        </button>
-
       </div>
-      
     </div>
->>>>>>> 19d3c6e1d5ef67ac6ea3123c8c747d201a555915
-  )
-}
+  );
+};
 
-export default Page6
+export default Page6;
