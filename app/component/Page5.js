@@ -12,12 +12,12 @@ const Page5 = () => {
     <div>
         <div className='bgpage5 relative overflow-x-hidden'>
             <svg className='h-1/4 absolute left-1/2 -translate-x-1/2 top-0' viewBox="0 0 561 280" fill="none" xmlns="http://www.w3.org/2000/svg">
-<circle cx="280.5" cy="-0.5" r="280.5" fill="url(#paint0_linear_738_231)" fill-opacity="0.2"/>
-<circle cx="280.5" cy="-0.5" r="280" stroke="white" stroke-opacity="0.05"/>
-<circle cx="280.5" cy="-0.5" r="280" stroke="url(#paint1_linear_738_231)" stroke-opacity="0.2"/>
-<circle cx="280.5" cy="-0.5" r="216.5" fill="url(#paint2_linear_738_231)" fill-opacity="0.2"/>
-<circle cx="280.5" cy="-0.5" r="216" stroke="white" stroke-opacity="0.02"/>
-<circle cx="280.5" cy="-0.5" r="216" stroke="url(#paint3_linear_738_231)" stroke-opacity="0.1"/>
+<circle cx="280.5" cy="-0.5" r="280.5" fill="url(#paint0_linear_738_231)" fillOpacity="0.2"/>
+<circle cx="280.5" cy="-0.5" r="280" stroke="white" strokeOpacity="0.05"/>
+<circle cx="280.5" cy="-0.5" r="280" stroke="url(#paint1_linear_738_231)" strokeOpacity="0.2"/>
+<circle cx="280.5" cy="-0.5" r="216.5" fill="url(#paint2_linear_738_231)" fillOpacity="0.2"/>
+<circle cx="280.5" cy="-0.5" r="216" stroke="white" strokeOpacity="0.02"/>
+<circle cx="280.5" cy="-0.5" r="216" stroke="url(#paint3_linear_738_231)" strokeOpacity="0.1"/>
 <g filter="url(#filter0_f_738_231)">
 <ellipse cx="293" cy="47.5" rx="12" ry="47.5" fill="white"/>
 </g>
@@ -226,7 +226,7 @@ const Page5 = () => {
                 <div className='flex justify-center items-center gap-[14px] lg:gap-[16px] xl:gap-[20px] 2xl:gap-[24px] mt-[30px] sm:mt-[44px] lg:mt-[55px] 2xl:mt-[72px]'>
                     <svg className='prevRef rotate-[180deg] cursor-pointer' width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="28" cy="28" r="27.5" fill="url(#paint0_linear_564_690)"/>
-                    <circle cx="28" cy="28" r="27.5" stroke="white" stroke-opacity="0.08"/>
+                    <circle cx="28" cy="28" r="27.5" stroke="white" strokeOpacity="0.08"/>
                     <circle cx="28" cy="28" r="27.5" stroke="url(#paint1_linear_564_690)"/>
                     <path d="M24.91 35.9201L31.43 29.4001C32.2 28.6301 32.2 27.3701 31.43 26.6001L24.91 20.0801" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                     <defs>
@@ -245,7 +245,7 @@ const Page5 = () => {
 
                     <svg className='nextRef cursor-pointer' width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="28" cy="28" r="27.5" fill="url(#paint0_linear_564_690)"/>
-                    <circle cx="28" cy="28" r="27.5" stroke="white" stroke-opacity="0.08"/>
+                    <circle cx="28" cy="28" r="27.5" stroke="white" strokeOpacity="0.08"/>
                     <circle cx="28" cy="28" r="27.5" stroke="url(#paint1_linear_564_690)"/>
                     <path d="M24.91 35.9201L31.43 29.4001C32.2 28.6301 32.2 27.3701 31.43 26.6001L24.91 20.0801" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                     <defs>
