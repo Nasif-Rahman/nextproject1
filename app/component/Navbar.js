@@ -70,7 +70,7 @@ const NavBar = () => {
         </nav>
 
         <ul className='manu-sosul-area'>
-          <button className='contactusbtn'>SIGN UP</button>
+          <button className='contactusbtn text-xl'>Sign Up</button>
         </ul>
 
       </header>
